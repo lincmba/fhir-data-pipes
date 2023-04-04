@@ -82,6 +82,11 @@ public class FhirEtl {
         options.getFhirServerUrl(),
         options.getFhirServerUserName(),
         options.getFhirServerPassword(),
+        options.getOidConnectUrl(),
+        options.getClientId(),
+        options.getClientSecret(),
+        options.getOAuthUsername(),
+        options.getOAuthPassword(),
         fhirContext);
   }
 
